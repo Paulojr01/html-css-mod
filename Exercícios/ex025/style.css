@@ -31,7 +31,8 @@ aside:hover{
 nav {
     display: flex;
     justify-content: space-around;
-    margin-right: -50px;
+    box-shadow: -33px -2px 31px 7px rgba(182, 235, 60, 0.772);
+
 }
 
 footer{
