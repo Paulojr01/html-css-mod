@@ -1,0 +1,46 @@
+@charset "utf - 8";
+
+body{
+    background-color: rgba(81, 80, 80, 0.755);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    background-color: rgba(159, 164, 173, 0.841);
+
+}
+
+main{
+   font: normal 17px 'work sans';
+   font-size: 18px;
+   text-indent: 10px ;
+}
+
+
+aside:hover{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: -50px;
+}
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h2:hover{
+    background-color: aqua;
+}
