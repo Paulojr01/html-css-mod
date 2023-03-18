@@ -41,24 +41,51 @@ body {
 }
 
 header{
-    background-color: var(--cor04);
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
     min-height: 150px;
     text-align: center;
+    padding-top: 30px;
 }
 
 header > h1{
     color: white;
     font-family: var(--font-destaque);
-
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header >p{
+    font-family:var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
     color:white;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 
 }
 
 nav{
     background-color:var(--cor05) ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.365);
+    
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 1s ;
+}
+
+nav >a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
 }
 
 main{
