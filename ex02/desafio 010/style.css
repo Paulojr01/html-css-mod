@@ -40,6 +40,37 @@ body {
     font-family: var(--font-padrao);
 }
 
+main p {
+    margin: 15px 0px;
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main strong{
+    color: var(--cor04);
+    font-weight: bold;
+    background-color: var(--cor01);
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor05);
+    background-color: var(--cor01);
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor04);
+
+}
+
 header{
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
     min-height: 150px;
@@ -105,7 +136,7 @@ main img{
 }
 
 main img.pequena{
-    width: 50%;
+  max-width: 350px;
     display: block;
     margin: auto;
 
@@ -119,29 +150,41 @@ main  h1{
 }
 
 main h2{
-
+    color: var(--cor04);
     font-family: var(--fonte-android);
-
+    font-size: 1.3em;
+    background-image: linear-gradient(to right,var(--cor01),transparent);
+    text-indent: 8px;
 }
 
 aside{
-    margin: -7;
+    padding: 10px;
     border-radius: 9px;
-    background-color: var(--cor03);
+    background-color: var(--cor01);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+
 }
 
-aside h3 {
+aside > h3 {
+    background-color: var(--cor04);
+    color: white;
     text-indent: 10px;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px ;
 }
-aside p{
-    text-align: center;
-}
-aside li{
-   text-indent: 10px;
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    text-indent: 10px;
+    columns: 2;
 }
 
 footer{
     background-color: var(--cor05);
     color: white;
-
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
 }
